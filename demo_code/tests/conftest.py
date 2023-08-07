@@ -1,7 +1,7 @@
+import os
 
-from django.core.management import call_command
 import pytest
-
+from django.core.management import call_command
 
 
 @pytest.fixture(scope="session")
@@ -12,7 +12,7 @@ def django_db_setup(django_db_setup, django_db_blocker):
 
 @pytest.fixture(scope="session")
 def mock_functions_env():
-    os.environ['DJANGO_ALLOW_ASYNC_UNSAFE'] = "true"
+    os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 
 
 @pytest.fixture(scope="session")
