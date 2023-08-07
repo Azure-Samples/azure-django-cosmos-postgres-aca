@@ -7,6 +7,11 @@ ignore = ["D203"]
 
 [tool.black]
 line-length = 120
+exclude = '''
+/(
+  | migrations
+)/
+'''
 
 [tool.pytest.ini_options]
 addopts = "-ra --cov -vv"
