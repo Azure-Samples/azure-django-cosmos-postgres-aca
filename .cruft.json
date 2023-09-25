@@ -1,0 +1,32 @@
+{
+  "template": "https://github.com/kjaymiller/cookiecutter-relecloud/",
+  "commit": "55bc6d8432564172fb660220cf6232743b821f8f",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "azure",
+      "project_backend": "django",
+      "db_resource": "cosmos-postgres",
+      "project_host": "aca",
+      "web_port": "8000",
+      "__repo_name": "azure-django-cosmos-postgres-aca",
+      "__src_folder_name": "azure_django_cosmos_postgres_aca",
+      "__project_short_description": "Create a relecloud demo application with django and cosmos-postgres",
+      "_copy_without_render": [
+        ".github/workflows/azure-dev.yml",
+        ".github/workflows/cruft.yml",
+        ".github/workflows/devcontainer-ci.yml",
+        ".github/workflows/format.yml"
+      ],
+      "_extensions": [
+        "extensions.GetUrlForBackend"
+      ],
+      "_jinja2_env_vars": {
+        "lstrip_blocks": true,
+        "trim_blocks": true
+      },
+      "_template": "https://github.com/kjaymiller/cookiecutter-relecloud/"
+    }
+  },
+  "directory": null
+}
