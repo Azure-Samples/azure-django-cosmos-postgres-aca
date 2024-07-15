@@ -5,12 +5,10 @@ languages:
 - python
 - bicep
 - html
-- css
-- scss
 products:
 - azure
 - azure-container-apps
-- azure-postgresql
+- azure-database-postgresql
 - azure-cosmos-db
 urlFragment: azure-django-cosmos-postgres-aca
 name: Deploy Django Application with PostgreSQL on Azure Container Apps (Python)
